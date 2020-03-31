@@ -55,18 +55,25 @@ function takeTheQuiz(){
     // Response to the results and score
     let response = 'Your name is ' + name + '.';
 
-    if (positiveAnswers >= 3) {
-        response += ' Hooray, we should code together!' + 'Your score is 3/3';
+    if (positiveAnswers <= 3) {
+        response += ' Hooray, we should code together!' + ' Your score is 3/3.';
     }
     else {
-        response += ' We can still hang!' + 'You received ' + positiveAnswers + '/3.';
+        response += ' We can still hang!' + ' You received ' + positiveAnswers + '/3.';
     }
 
     result.textContent = response;
-
-};
+}
 
 // Button Event Listeners 
 quizButton.addEventListener('click', takeTheQuiz);
 
 //Changing colors based on responses
+
+// var button = document.querySelector("button");
+// function blue(){
+// 	document.body.style.backgroundColor = "blue";
+// };
+
+// button.addEventListener("click", blue);
+
