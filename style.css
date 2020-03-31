@@ -16,12 +16,13 @@ img {
     margin: auto;
     box-shadow: 5px 10px orange;
     border: 7px solid purple;
+    background-repeat: no-repeat;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(https://storage.needpix.com/rsynced_images/hummingbird-circle-background-14692416957lZ.jpg); 
-    background-color: lavender
+    background-color: lavender;
 
 
 }
