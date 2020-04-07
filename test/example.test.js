@@ -16,4 +16,6 @@ test('yes, y, yasss is yes', function(assert) {
     assert.equal(result3, false);
     assert.equal(result4, false);
 
-});
+}); 
+
+export default isYes; 
