@@ -53,7 +53,7 @@ function takeTheQuiz(){
     let response = 'Your name is ' + fullName + '.';
 
     if (positiveAnswers <= 3) {
-        response += ' Hooray, we should code together!' + ' Your score is 3/3.';
+        response += ' Hooray, we should code together!' + ' Your score is 3/3 or 100%.';
     }
     else {
         response += ' We can still hang!' + ' You received ' + positiveAnswers + '/3.';
@@ -70,6 +70,8 @@ function takeTheQuiz(){
         resultColor.style.color = 'red'; 
 
     }
+
+
 }
 
 // Button Event Listeners 
