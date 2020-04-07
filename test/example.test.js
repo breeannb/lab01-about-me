@@ -1,5 +1,6 @@
 // IMPORT MODULES under test here:
 // import example from '../src/example.js';
+import isYes from './example.test.js';
 
 const test = QUnit.test;
 
